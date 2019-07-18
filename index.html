@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            min-height: 100%;
+        }
+        body {
+            background-image: url(assets/images/Artistic-Landscape-4K-Wallpaper-3840x2160.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container{
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <script>
+        var words = ["rebel", "herb", "compound", "second", "duty", "relinquish", "bell", "bitter",
+            "computing", "check", "obligation", "engineer", "girlfriend", "election", "cafe", "mechanism", "traction", "commemorate",
+            "adult", "dragon", "strain", "memory", "theory", "sodium", "dialect"];
+
+        //This is set to pick the random word.
+        var word = words[Math.floor(Math.random() * words.length)];
+
+        //This will show how many letter are in the word.
+        var answerLetters = [];
+        for (var i = 0; i < word.length; i++) {
+            answerLetters[i] = "_";
+        }
+
+        //Shows how many letters are left
+        var remainingLetters = word.length;
+
+        //          The Main Game Script
+
+        while (remainingLetters > 0) {
+            //Shows progress of the letters already guessed
+            alert(answerLetters.join(" "));
+
+            //gets a guess from the player
+            var guess = prompt("Guess a letter, or click Cancel to stop playing");
+
+            //If the guess is blank
+            if (guess === null) {
+
+                //Stops game loop
+                break;
+
+                //This is if the user guesses more than 1 letter, or no letters
+            } else if (guess.length !== 1) {
+
+                //This will let you know that you can only guess one letter at a time.
+                alert("Guess a single letter only.");
+
+                //For good guesses
+            } else {
+
+                //Updates the game with the guess
+                for (var j = 0; j < word.length; j++) {
+
+                    //If the letter is in the word at that point or index
+                    if (word[j] === guess) {
+
+                        //This will update the array with the letter guessed
+                        answerLetters[j] = guess;
+
+                        //Subtracts one from remaining letters
+                        remainingLetters--;
+                    }
+                }
+            }
+            //This will end the main game loop
+        }
+        //This will let the player know what the word was
+        alert(answerLetters.join(" "));
+
+        //Will show a confirmed/congrats message
+        alert("Good Job! The answer was " + word);
+
+    </script>
+    </div>
+
+</body>
+
+</html>
