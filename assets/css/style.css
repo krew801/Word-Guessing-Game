@@ -3,7 +3,7 @@ html {
     min-height: 100%;
 }
 body {
-    background-image: url(../images/Artistic-Landscape-4K-Wallpaper-3840x2160.jpg);
+    background-image: url(../images/856732.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
 }
@@ -14,7 +14,7 @@ body {
 } */
 header {
     
-    background-image: linear-gradient(to top, rgb(247, 123, 142), pink);
+    background-image: linear-gradient(to top, rgb(117, 18, 126), rgb(170, 41, 202));
     font-size: 20px;
     font-family: 'Fascinate', cursive;
     text-align: center;
@@ -72,6 +72,7 @@ header {
     background: lightgray;
     opacity: .85;
     background-image: linear-gradient(to right, lightblue, rgb(157, 157, 238));
+    border-radius: 5px;
 
 }
 h1{

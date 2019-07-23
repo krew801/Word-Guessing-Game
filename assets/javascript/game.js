@@ -15,7 +15,7 @@ var wins = 0
 
 resetGame()
 
-// Wait for key press
+// Wait for key press to start game
 document.onkeypress = function (event) {
 // Make sure key pressed is an alpha character
 if (isAlpha(event.key) && !pauseGame) {
