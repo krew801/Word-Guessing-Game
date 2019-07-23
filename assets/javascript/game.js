@@ -4,7 +4,7 @@ var possibleWords = ["rebel", "herb", "compound", "second", "duty", "relinquish"
 "computing", "check", "obligation", "engineer", "girlfriend", "election", "cafe", "mechanism", "traction", "commemorate",
 "adult", "dragon", "strain", "memory", "theory", "sodium", "dialect"];
 
-const maxGuess = 10
+const maxGuess = 12
 var pauseGame = false
 
 var guessedLetters = []
@@ -63,11 +63,13 @@ if (!foundLetter) {
 updateDisplay()
 
 }
+//Googled this function, but not sure if it is redundant with the toUpperClass function.
 // Check in keypressed is between A-Z or a-z
 function isAlpha(ch) {
 return /^[A-Z]$/i.test(ch);
 }
 
+//resetGame function happens when all of these variables and items are met
 function resetGame() {
 numGuess = maxGuess
 pauseGame = false
@@ -94,6 +96,7 @@ for (var i = 0, j = wordToMatch.length; i < j; i++) {
 updateDisplay()
 }
 
+//This is what is ran when the code gets to the updateDisplay function
 function updateDisplay() {
 document.getElementById("totalWins").innerText = wins;
 document.getElementById("currentWord").innerText = guessingWord.join("");
