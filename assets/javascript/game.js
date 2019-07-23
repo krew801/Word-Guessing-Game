@@ -1,5 +1,5 @@
 
-
+//Adding 25 words to add more randomness as well as adding a bit of difficulty
 var possibleWords = ["rebel", "herb", "compound", "second", "duty", "relinquish", "bell", "bitter",
 "computing", "check", "obligation", "engineer", "girlfriend", "election", "cafe", "mechanism", "traction", "commemorate",
 "adult", "dragon", "strain", "memory", "theory", "sodium", "dialect"];

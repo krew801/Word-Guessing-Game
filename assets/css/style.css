@@ -15,6 +15,7 @@ body {
 header {
     
     background-image: linear-gradient(to top, rgb(117, 18, 126), rgb(170, 41, 202));
+    border-radius: 5px;
     font-size: 20px;
     font-family: 'Fascinate', cursive;
     text-align: center;
@@ -22,6 +23,7 @@ header {
     margin: 0 auto;
     height: 150px;
     width: 75%;
+    opacity: .60;
     
 }
 .box1 {
