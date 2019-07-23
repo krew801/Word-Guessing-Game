@@ -32,6 +32,11 @@ header {
     height: 50px;
     width: 75%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fascinate', cursive;
+    font-family: 'Geostar Fill', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 /* Not using this box at the moment.
@@ -52,6 +57,11 @@ header {
     margin: 0 auto;
     height: 50px;
     width: 75%;
+    font-family: 'Fascinate', cursive;
+    font-family: 'Geostar Fill', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .mainContent{
     /* border: 4px solid; */
