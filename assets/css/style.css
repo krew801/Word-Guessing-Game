@@ -14,15 +14,15 @@ body {
 } */
 header {
     
-    background-image: linear-gradient(to top, rgb(117, 18, 126), rgb(170, 41, 202));
+    background-image: linear-gradient(to top, rgb(217, 3, 236), rgb(214, 111, 240));
     border-radius: 5px;
     font-size: 20px;
-    font-family: 'Fascinate', cursive;
+    font-family: 'Fascinate', 'Geostar Fill', cursive;
     text-align: center;
     position: relative;
     margin: 0 auto;
     height: 150px;
-    width: 75%;
+    width: 95%;
     opacity: .60;
     
 }
@@ -33,12 +33,7 @@ header {
     margin-bottom: 2px;
     height: 50px;
     width: 75%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-family: 'Fascinate', cursive;
-    font-family: 'Geostar Fill', cursive;
-    font-family: 'Inconsolata', monospace;
-    font-family: 'Signika', sans-serif;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: Impact, 'Arial Narrow Bold','Fascinate', cursive, 'Geostar Fill', cursive, 'Inconsolata', monospace, 'Signika', sans-serif, 'Josefin Sans', sans-serif, sans-serif;
 
 }
 /* Not using this box at the moment.
